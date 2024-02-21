@@ -1,7 +1,7 @@
 import {createBrowserRouter,RouterProvider} from 'react-router-dom';
-import Wallet from './components/Wallet';
-import Home from './components/Home';
-import Members from './components/Members';
+import Wallet from './pages/wallet';
+import Home from './pages/home';
+import Members from './pages/members';
 import './App.css'
 
 function App() {
