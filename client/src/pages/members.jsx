@@ -1,7 +1,7 @@
 import {useState,useEffect} from "react";
 import {useNavigate} from "react-router-dom"
 import io from 'socket.io-client'
-import welcomeImg from '../images/GM.png'
+import welcomeImg from '../image/Shreyas.jpg'
 const Members=()=>{
     const [socket,setSocket]=useState(null);
     const navigateTo = useNavigate();
